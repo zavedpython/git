@@ -1,0 +1,20 @@
+What is Git?
+Git is a distributed version control system (VCS) that allows developers to track changes in their codebase, collaborate with others, and manage the history of a project's files.
+
+Uses of Git
+•	Version Control - Git tracks changes in files, enabling developers to access previous versions and understand what changes were made, when, and by whom.
+•	Collaboration - Multiple developers can work on the same project simultaneously. Git helps merge their work without overwriting each other's contributions.
+•	Branching and Merging - Developers can create branches to experiment or work on new features independently of the main codebase (e.g., main or master branch). Once complete, these branches can be merged back into the main codebase.
+•	History Management - Git maintains a complete history of the project's changes. Developers can revert to a specific version if needed
+•	Backup and Safety -Since Git is distributed, every developer has a full copy of the repository.
+•	Code Integration -Git ensures smooth integration of code by handling conflicts and merging changes efficiently.
+•	Open Source and Widely Supported -Being open source and cross-platform, Git is widely used and integrates with popular platforms like GitHub, GitLab, and Bitbucket.
+
+
+Key Concepts in Git
+•	Repository (Repo): A directory where Git tracks changes.
+•	Commit: A snapshot of the repository at a specific point in time.
+•	Branch: A pointer to a specific commit, used for isolating changes.
+•	Merge: Combining changes from one branch into another.
+•	Pull: Fetching and integrating changes from a remote repository.
+•	Push: Sending changes to a remote repository.

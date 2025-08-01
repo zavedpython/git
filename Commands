@@ -1,0 +1,76 @@
+Types of Repositories 
+●	Bare Repository (Center Repo.)
+1.	Store and share only
+2.	All central repositories are Bare Repo.
+3.	GitHub & GitLab are Bare Repository / Center Repo.
+
+●	Non – Bare Repository (Local Repo.)
+1.	Where you can modify files
+2.	All local repositories are non-bare Repo
+
+Commands need to run once the Linux AWS machine has been created.
+●	sudo su
+●	yum update -y
+●	yum install git -y
+●	git – version
+●	git config  --global user.name “zaved”
+●	git config  --global user.email zaved.python@hotmail.com
+●	git config –list
+
+Commit | Push | Pull 
+
+●	Login in Mumbai EC2 Instance 
+●	Create a directory and go inside it.
+●	Git init.
+●	Git status
+●	Touch myfile (Put some data inside the file)
+●	Git status  (To know the untrack file/code in the working space area)
+●	Git add .    (To add code into staging area)
+●	Git commit -m “1st commit from Mumbai”
+●	Git status
+●	Git log   
+●	Git log -1 / git log -2
+●	Git log --oneline 
+●	Git log –grep “keyword”
+●	Git show <commit id>
+
+●	Git remote add origin <central git URL>
+●	Git push -u origin master
+●	Enter username & password
+
+●	Login in Singapore EC2 Instance 
+●	Create a directory and go inside it.
+●	Git init.
+●	Git remote add origin “central git URL”
+●	Git pull origin master
+●	Git log
+●	Git show <commit id>
+●	Add some code.
+●	Git status  (To know the untrack file/code in the working space area)
+●	Git add .
+●	Git commit -m “1st commit from Mumbai”
+●	Git status
+●	Git log
+●	Git show <commit id>
+●	Git push -u origin master
+
+To ignore some files while commenting 
+
+1.	Create one hidden file     . gitignore and enter file format which you want to ignore.
+2.	Vi   .gitignore
+3.	Enter 	*.css
+*.py
+*.txt
+4.	git add .gitignore  (Add this file into staging area)
+5.	git commit -m “latest update exclude .css”
+6.	git status
+
+Create some .txt .java & .css files and add them running “git add”. E;g touch file.txt,file1.txt,file3.java,file4.css.
+
+ls
+git status
+git add
+git status
+git commit -m “my txt files only ”
+
+

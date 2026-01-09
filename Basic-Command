@@ -1,0 +1,25 @@
+1️⃣ Switch to the branch
+git checkout <branch-name>
+or 
+git switch <branch-name>
+
+
+2️⃣ Check branch
+git branch
+
+3️⃣ Stage changes
+git add .
+or for a specific file:
+git add app.py
+
+4️⃣ Commit changes
+git commit -m "Add Kong log buffering and metrics"
+✅ This commit is now only in that branch.
+
+🚀 Push the branch to remote
+git push origin <branch-name>
+
+⚠️ Common mistakes to avoid
+❌ Committing on main by mistake
+✔️ Always run:
+git status
